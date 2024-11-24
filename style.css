@@ -1,0 +1,88 @@
+body{
+    background:linear-gradient(to right,#1e3799,#1b6bb6) ;
+}
+#box{
+    background: #4a69bd;
+    margin: 60px 150px 0 150px ;
+    height: 32rem;
+    border: 2px solid  #627abdea;;
+    /* width: 70rem; */
+}
+.fa-check{
+    color: #1e3799;
+    font-size: 2 rem;
+}
+#check{
+    font-size: 3rem;
+}
+.check-circle{
+    background: white;
+    width: 50px;
+    height: 50px;
+}
+#task{
+font-size: 32px;
+color: white;
+}
+#content{
+    background: #303030;
+    height: 20rem;
+    margin: 5px 50px;
+}
+#text{
+   
+    width: 85%;
+    border-radius: 10px;
+    border: 0;
+    height: 50px;
+}
+#text:focus{
+    border: 0;   
+}
+#addBtn{
+    background: #1b6bb6;
+    color: white;
+    border: 1px solid #1e3799;
+    height:49px ;
+    border-radius: 10px !important; 
+    width: 55px;
+    padding: 5px;
+}
+.task{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+}
+.dlt{
+    display: flex;
+    align-self: end;
+    color: #1b6bb6;
+    border: 0;
+    border-radius: 10px;
+}
+
+
+/* Media Queries */
+@media screen and (max-width:480px) {
+    #box{
+        margin: 0;
+        background:linear-gradient(to right,#1e3799,#1b6bb6);
+        border:0;
+    }
+    #text{
+        width: 64%;
+    }
+  
+}
+@media screen and (min-width:481px) and (max-width:700px){
+    #box{
+        margin: 0;
+        background:linear-gradient(to right,#1e3799,#1b6bb6);
+        border:0;
+    }
+    #text{
+        width: 64%;
+    }
+  
+}
